@@ -1,0 +1,112 @@
+body{
+  margin: 30px;
+  border: 1px solid #BFBFBF;
+  border-radius: 30px;
+  box-shadow: 0 0 50px #888888;
+}
+
+footer{
+  border-radius: 0 0 30px 30px;
+  background-color: hsl(215, 15%, 20%);
+  color: aliceblue;
+  text-align: center;
+  height: 100px;
+  padding-top: 5px;
+}
+
+header{
+  border-radius: 30px 30px 0 0;
+  background-color: hsl(215, 15%, 20%);
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 20px;
+}
+
+h2{
+  text-align: center;
+}
+nav {
+  align-items: center;
+}
+ul {
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(215, 52%, 38%);
+  
+}
+ 
+li {
+  float: right;
+  width: 25%;
+}
+ 
+ li a {
+  border: 2px solid hsl(215, 52%, 38%);
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: hsl(215, 72%, 25%);
+  border: 2px solid hsl(215, 72%, 20%);
+}
+ 
+img {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+p, h1, h2, h3, a {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+section {
+  width: 100%;
+  display: table;
+}
+article {
+  float: left;
+  width: 55%;
+  margin: 10px;
+}
+
+aside {
+  float: right;
+  width: 40%;
+  margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  article {
+    float: none;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  aside {
+    float: none;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    max-width: 600px;
+    margin: 0px
+  }
+  body{
+    margin: 1px;
+  }
+  li {
+    float: none;
+    width: 100%;
+  }
+}
