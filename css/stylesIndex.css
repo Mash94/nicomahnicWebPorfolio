@@ -80,6 +80,7 @@ section {
   display: table;
 }
 article {
+  padding-left: 30px;
   float: left;
   width: 55%;
   margin: 10px;
