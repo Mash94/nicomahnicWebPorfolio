@@ -47,7 +47,7 @@ li {
   width: 25%;
 }
  
- li a {
+li a {
   border: 2px solid hsl(215, 52%, 38%);
   display: block;
   color: aliceblue;
@@ -82,7 +82,7 @@ section {
 article {
   padding-left: 30px;
   float: left;
-  width: 55%;
+  width: 50%;
   margin: 10px;
 }
 
